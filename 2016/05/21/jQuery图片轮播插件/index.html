@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>CSS选择器优先级 | 五毛六</title>
+  <title>jQuery图片轮播插件 | 五毛六</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="浏览器通过判断优先级来决定哪些属性值与元素最相关，从而应用到该元素上。通常我们将CSS的优先级分为6级(由高到低)：">
+  <meta name="description" content="编写了一个基于jQuery的图片轮播插件，简单实现了图片自动轮播，鼠标悬停停止轮播等作为一个轮播插件该有的“节操”，特此和大家分享一下（到我敲下这段文字的时候，貌似大家 === 我自己T_T）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CSS选择器优先级">
-<meta property="og:url" content="http://yoursite.com/2016/05/13/CSS选择器优先级/index.html">
+<meta property="og:title" content="jQuery图片轮播插件">
+<meta property="og:url" content="http://yoursite.com/2016/05/21/jQuery图片轮播插件/index.html">
 <meta property="og:site_name" content="五毛六">
-<meta property="og:description" content="浏览器通过判断优先级来决定哪些属性值与元素最相关，从而应用到该元素上。通常我们将CSS的优先级分为6级(由高到低)：">
-<meta property="og:updated_time" content="2016-05-13T07:06:50.034Z">
+<meta property="og:description" content="编写了一个基于jQuery的图片轮播插件，简单实现了图片自动轮播，鼠标悬停停止轮播等作为一个轮播插件该有的“节操”，特此和大家分享一下（到我敲下这段文字的时候，貌似大家 === 我自己T_T）">
+<meta property="og:updated_time" content="2016-05-21T09:45:23.883Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CSS选择器优先级">
-<meta name="twitter:description" content="浏览器通过判断优先级来决定哪些属性值与元素最相关，从而应用到该元素上。通常我们将CSS的优先级分为6级(由高到低)：">
+<meta name="twitter:title" content="jQuery图片轮播插件">
+<meta name="twitter:description" content="编写了一个基于jQuery的图片轮播插件，简单实现了图片自动轮播，鼠标悬停停止轮播等作为一个轮播插件该有的“节操”，特此和大家分享一下（到我敲下这段文字的时候，貌似大家 === 我自己T_T）">
   
     <link rel="alternative" href="/atom.xml" title="五毛六" type="application/atom+xml">
   
@@ -183,11 +183,11 @@
 	</div>
 </nav>
 
-      <div class="body-wrap"><article id="post-CSS选择器优先级" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-jQuery图片轮播插件" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/05/13/CSS选择器优先级/" class="article-date">
-  	<time datetime="2016-05-13T02:09:17.000Z" itemprop="datePublished">2016-05-13</time>
+      <a href="/2016/05/21/jQuery图片轮播插件/" class="article-date">
+  	<time datetime="2016-05-21T09:13:07.000Z" itemprop="datePublished">2016-05-21</time>
 </a>
     </div>
   
@@ -200,7 +200,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      CSS选择器优先级
+      jQuery图片轮播插件
     </h1>
   
 
@@ -209,7 +209,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/">CSS</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/图片轮播/">图片轮播</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/插件/">插件</a></li></ul>
 	</div>
 
         
@@ -220,16 +220,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>浏览器通过判断优先级来决定哪些属性值与元素最相关，从而应用到该元素上。通常我们将CSS的优先级分为6级(由高到低)：<br><a id="more"></a></p>
-<blockquote>
-<p>1.位于食物链最顶端的第一顺位优先的属性只要在属性后加上<code>!import</code>，它会覆盖页面任何位置定义的元素样式。IE6不支持这个属性，也可用作为一种hack。<br>2.第二顺位的优先属性是在html元素标签的style属性中定义的属性。但该方法会造成CSS难以管理，尽可能不使用。<br>3.第三顺位优先的属性是在id选择器中定义的属性。比如<code>#id{margin:0;}</code>会覆盖<code>.class{margin:20px;}</code>。<br>4.第四顺位的属性是在class选择器，属性选择器(比如<code>a[href]{color:#eee;}</code>)，伪类选择器(比如<code>a:hover{color:#ff0000;}</code>)中定义的属性。比如<code>.class{margin:20px;}</code>会覆盖<code>tag{margin:40px;}</code>。<br>5.第五顺位的属性实在元素选择器中定义的属性。比如<code>tag{margin:40px;}</code>会覆盖<code><em>{margin:60px;}}</em></code>。<br>6.最低一级的选择器为通配选择器，用<code>{margin:60px;}}</code>这样的类型来定义。</p>
-</blockquote>
-<p>用一句话来描述CSS选择器优先级：当一个CSS选择器拥有更多高级别的属性时，它的优先级越高。比如<code>#ID .class1 .class2{}</code>的优先级会高于<code>#ID .class2 div p span em</code>，这是由于前者拥有1个三级和2个四级的选择器，而后者只拥有1个三级和1个四级(之后的五级标签更不用来参与比较)，所有前者优先级较高。如下(test颜色为#eee)：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">	&lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">	&lt;title&gt;test&lt;/title&gt;</span><br><span class="line">	&lt;style&gt;</span><br><span class="line">		#ID .CLASS1 .CLASS2&#123;</span><br><span class="line">			color:#eee;</span><br><span class="line">		&#125;</span><br><span class="line">		#ID .CLASS2 div p span em&#123;</span><br><span class="line">			color:#abcdef;</span><br><span class="line">		&#125;</span><br><span class="line">	&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;div id=&quot;ID&quot;&gt;	</span><br><span class="line">		&lt;div class=&quot;CLASS1&quot;&gt;</span><br><span class="line">			&lt;div class=&quot;CLASS2&quot;&gt;</span><br><span class="line">				&lt;p&gt;</span><br><span class="line">					&lt;span&gt;</span><br><span class="line">						&lt;em&gt;test&lt;/em&gt;</span><br><span class="line">					&lt;/span&gt;</span><br><span class="line">				&lt;/p&gt;</span><br><span class="line">			&lt;/div&gt;</span><br><span class="line">		&lt;/div&gt;</span><br><span class="line">	&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></p>
-<p>CSS选择器是一个非常灵活的CSS属性，优雅的使用会使你的页面代码不再臃肿（反之结果往往会让你抓狂)，而且还可以作为hack的妙用之一。<br>当较多优先级相等的CSS选择器存在比较时，选择器定义的位置将决定一切(由高到低)：</p>
-<blockquote>
-<p>1.定义于<code>style</code>标签内的CSS拥有最高的优先权。<br>2.位于<code>style</code>标签内的@import引入样式表(<code>@import url(my.css)</code>)。<br>3.由<code>link</code>标签引入的样式表。<br>4.由<code>link</code>标签引入的样式表内的@import引入样式表。</p>
-</blockquote>
-<p>多说一句：link引入的CSS在页面加载过程中同时被加载，而@import引入的CSS会等到页面被加载完再加载。<br>理解了这些CSS优先级问题后，也就不必苦恼于样式定于中的此类问题了<br>。</p>
+        <p>编写了一个基于jQuery的图片轮播插件，简单实现了图片自动轮播，鼠标悬停停止轮播等作为一个轮播插件该有的“节操”，特此和大家分享一下（到我敲下这段文字的时候，貌似大家 === 我自己T_T）<br><a id="more"></a><br>好了，不管是分享还是自嗨，先献上<a href="https://github.com/wumaoliu/autoImg" target="_blank" rel="external">源码链接</a>。</p>
+<p>按理说现在应该写上html部分，然后css部分，最后JS部分。但说实话，你看着不眼花吗？介于目前的看客就我自个，我眼花！</p>
+<p>还是敲敲汉字，简单说说实现过程吧。</p>
+<p>插件的核心就是实现轮播（特么废话！），所以我在插件中定义一个move函数（我确实不会命名）通过目标图片的索引，加以animate动画实现滑动播放。然后其他的功能都在此基础上实现（敷衍了事？！）。</p>
+<p>我发现了，没人看或者看了懒得评论（骂我），不怪你们，都是我的原因，我不止代码写得烂，我博客写得更烂…</p>
 
       
     </div>
@@ -239,18 +234,9 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/05/21/jQuery图片轮播插件/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          jQuery图片轮播插件
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/05/09/草东/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">草东没有派对</div>
+    <a href="/2016/05/13/CSS选择器优先级/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CSS选择器优先级</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -266,7 +252,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="CSS选择器优先级" data-title="CSS选择器优先级" data-url="http://yoursite.com/2016/05/13/CSS选择器优先级/"></div>
+	<div class="ds-thread" data-thread-key="jQuery图片轮播插件" data-title="jQuery图片轮播插件" data-url="http://yoursite.com/2016/05/21/jQuery图片轮播插件/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
